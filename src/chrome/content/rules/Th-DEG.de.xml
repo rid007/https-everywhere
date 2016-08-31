@@ -1,0 +1,29 @@
+<!--
+	For other Deggendorf University of Applied Sciences coverage, see th-deg.de.xml.
+	Insecure cookies are set for these hosts:
+		- www.th-deg.de
+	Mixed content:
+		- favicon on homepages-fb from www.th-deg.de *
+	* Secured by us
+-->
+<ruleset name="TH-DEG.de">
+
+	<!--	Direct rewrites:
+				-->
+	
+	<target host="ec.th-deg.de" />
+	<target host="ilearn.th-deg.de" />
+	<target host="his-portal.th--deg.de" />
+	<target host="webmail.th--deg.de" />
+	<target host="th-deg.de" />
+	<target host="www.th-deg.de" />
+
+
+
+
+
+
+	<rule from="^http:"
+		to="https:" />
+
+</ruleset>
